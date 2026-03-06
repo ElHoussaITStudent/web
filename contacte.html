@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte | Portafoli</title>
+    <link rel="stylesheet" href="estils/estils.css">
+</head>
+<body>
+    
+    <header class="capsalera">
+        <div class="branding">
+            <h1>El meu <span>Portafoli</span></h1>
+            <p>Desenvolupament d'Aplicacions Web</p>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Inici</a>
+            <a href="activitats.html">Activitats HTML & CSS</a>
+            <a href="sobremi.html">Sobre mi</a>
+            <a href="contacte.html" class="current-page">Contacte</a>
+            <a href="esbossos.html">Esbossos</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="pagina-contacte">
+            <h2>Contacte</h2>
+            <p>Pots posar-te en contacte amb mi a través del següent formulari o trucant al <strong>638261844</strong> / <strong>602815423</strong>.</p>
+            
+            <h3>Horari de disponibilitat</h3>
+            <table>
+                <tr>
+                    <th>Dia</th>
+                    <th>Matí</th>
+                    <th>Tarda</th>
+                </tr>
+                <tr>
+                    <td>Dilluns a Divendres</td>
+                    <td>No disponible (Classes de DAW)</td>
+                    <td>15:00 - 21:00</td>
+                </tr>
+                <tr>
+                    <td>Cap de setmana</td>
+                    <td>10:00 - 14:00</td>
+                    <td>Lliure</td>
+                </tr>
+            </table>
+
+            <h3>Envia'm un missatge</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="missatge">Missatge:</label>
+                    <textarea id="missatge" name="missatge" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy;El Houssain Ezzaoua. Tots els drets reservats.</p>
+        <div style="margin-top: 1em;">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="mailto:hezzaoua@gmail.com">Correu 1</a>
+            <a href="mailto:eezzaoua@gmail.com">Correu 2</a>
+            <a href="mailto:houssainodaxiigame@gmail.com">Correu 3</a>
+        </div>
+    </footer>
+
+</body>
+</html>
